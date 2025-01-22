@@ -70,3 +70,109 @@ ul li a{
     width: 100%;
     text-align: start;
 }
+.footer_logo_newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.footer_logo_newsletter img{
+    max-width: 150px;
+    width: 100%;
+}
+.footer_Newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.footer_logo_newsletter p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 15em;
+    width: 100%;
+    text-align: start;
+}
+.footer_form_input{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    outline: none;
+}
+.footer_form_input input{
+    padding: 10px;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    outline: none;
+}
+.footer_form_input button:hover{
+    background-color: #fff;
+    color: black;
+}
+.footer_form_input button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}
+.footer_services_contact_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_services_list ul{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.footer_quick_links_list ul{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.footer_social_media_icons ul{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.footer_social_media{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.footer_bottom_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_social_media_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer_social_media{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer_social_media_icons ul{
+    display: flex;
+    gap: 10px;
+}
+.footer_social_media_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footer_services{
+    text-align: start;
+}
+.footer_contact{
+    text-align: start;
+}
